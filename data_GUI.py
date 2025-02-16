@@ -1633,7 +1633,7 @@ def main():
     app = QApplication(sys.argv)
     
     # 建立 QFont 物件並指定字型、大小
-    font = QFont("Arial", 14)  # 這裡指定字型為 "Arial"，大小為 14pt
+    font = QFont("Segoe UI", 12)  # 這裡指定字型為 "Segoe"，大小為 12pt
     app.setFont(font)
     window = MainWindow()
     window.setGeometry(200, 100, 800, 600)  
